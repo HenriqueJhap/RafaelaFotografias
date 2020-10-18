@@ -1,0 +1,38 @@
+:root{
+    font-size: 60%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #69A2B0;
+    background: #FAF5E8;
+}
+
+body, input, button, textarea{
+    font: 400 18px Montserrat, sans-serif;
+}
+
+html, body, #root{
+    height: 100vh;
+}
+
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media (min-width : 700px){
+    :root{
+        font-size: 62.5%;
+    }
+}

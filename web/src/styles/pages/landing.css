@@ -1,0 +1,155 @@
+#page-landing{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #69A2B0;
+    background: #FAF5E8;
+}
+
+#page-landing #page-landing-content{
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+
+    height: 100%;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+header img{
+    height: 10rem;
+    width: 10rem;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+main h1{
+    font-size: 4rem;
+    line-height: 4.2rem;
+    text-align: center;
+    margin-bottom: 3.2rem;
+    text-transform: uppercase;
+}
+
+main p{
+    font-size: 2.4rem;
+    line-height: 3rem;
+    text-align: center;
+    max-width: 40rem;
+    margin-bottom: 3rem;
+}
+
+main a{
+    background: #69A2B0;
+    width: 14rem;
+    height: 4rem;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    border-radius: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 400 Montserrat 2rem;
+    text-align: center;
+    line-height: 1.6rem;
+    text-decoration: none;
+
+    color: #F8ECEC;
+
+    margin-bottom: 3rem;
+    transition: all 1s;
+}
+
+main a:hover{
+    opacity: 0.8;
+    height: 6rem;
+    width: 16rem;
+}
+
+main img{
+    height: 30rem;
+    width: 30rem;
+}
+
+footer{
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+   justify-content: center;
+}
+
+footer .perdido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.perdido img{
+    width: 30rem;
+    height: 30rem;
+}
+
+footer .informacoes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.informacoes p{
+    margin-bottom: 2rem;
+}
+
+.informacoes i{
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+footer a{
+    background: #69A2B0;
+    width: 14rem;
+    height: 4rem;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    border-radius: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 400 Montserrat 2rem;
+    text-align: center;
+    line-height: 1.6rem;
+    text-decoration: none;
+
+    color: #F8ECEC;
+
+    margin-bottom: 3rem;
+    transition: all 1s;
+}
+
+footer a:hover{
+    opacity: 0.8;
+    height: 6rem;
+    width: 16rem;
+}
