@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { AiOutlineArrowDown } from 'react-icons/ai';
 
 import logoImg from '../images/logo.svg';
@@ -20,7 +21,7 @@ function Landing() {
           <h1>Seja bem vindo(a) ao atendimento inicial online</h1>
           <p>É possivel se retirar da plataforma a qualquer momento. 
             O ensaio só será confirmado por você no final do site.</p>
-          <a href="/">Continuar</a>
+          <Link to="/TipoPacote">Continuar</Link>
           <img src={bonecosImg} alt="Bonecos"/>
         </main>
 
@@ -34,7 +35,7 @@ function Landing() {
           <div className="informacoes">
             <p>Clique no ícone abaixo</p>
             <i><AiOutlineArrowDown/></i>
-            <a href="/">Informacões</a>
+            <Link to="/Informacao1">Informacões</Link>
           </div>
         </footer>
       </div>
