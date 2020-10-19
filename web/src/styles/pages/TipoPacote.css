@@ -1,0 +1,128 @@
+#page-TipoPacote{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #69A2B0;
+    background: #FAF5E8;
+}
+
+#page-TipoPacote #page-TipoPacote-content{
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+   
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#page-TipoPacote-content header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1C6274;
+    border-radius: 30rem 30rem 0 0;
+    margin-bottom: 7rem;
+}
+
+#page-TipoPacote-content header .voltar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 1rem;
+}
+
+.voltar img{
+    margin-left: 4rem;
+    height: 6rem;
+    width: 6rem;
+}
+
+#page-TipoPacote-content header h1{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 4.2rem;
+    max-width: 40rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: #FAF5E8;
+}
+
+#page-TipoPacote-content header .celular{
+    height: 7rem;
+    width: 7rem;
+}
+
+#page-TipoPacote-content main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 7rem;
+}
+
+#page-TipoPacote-content .group-tipos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#page-TipoPacote-content .group-tipos a{
+    background: #1C6274;
+    box-shadow: 0 .4rem .4rem rgba(0, 0, 0, 0.25);
+    border-radius: 30rem;
+    width: 14rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 400 Montserrat 2rem;
+    text-align: center;
+    line-height: 1.6rem;
+    text-decoration: none;
+
+    color: #F8ECEC;
+
+    margin-bottom: 3rem;
+    transition: all 1s;
+   
+}
+
+#page-TipoPacote-content .group-tipos a:hover{
+    opacity: 0.8;
+    height: 6rem;
+    width: 16rem;
+}
+
+#page-TipoPacote-content .group-text{
+    margin-top: 2rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    text-align: center;
+    max-width: 40rem;
+    color: #1C6274;
+
+}
+
+#page-TipoPacote-content footer{
+    width: 100%;
+    height: 100%;
+    background-color: #1C6274;
+    border-radius: 0px 0px 30rem 30rem;
+}

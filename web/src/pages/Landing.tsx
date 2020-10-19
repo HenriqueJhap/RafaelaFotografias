@@ -35,7 +35,7 @@ function Landing() {
           <div className="informacoes">
             <p>Clique no ícone abaixo</p>
             <i><AiOutlineArrowDown/></i>
-            <Link to="/Informacao1">Informacões</Link>
+            <Link to="/Informacoes">Informacões</Link>
           </div>
         </footer>
       </div>
