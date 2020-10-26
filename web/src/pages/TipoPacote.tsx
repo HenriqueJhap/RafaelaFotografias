@@ -13,7 +13,7 @@ function TipoPacote(){
                 <header>
                     
                     <div className="voltar">
-                        <Link to="/">
+                        <Link to="/Identificacao">
                             <img src={setaVoltarImg} alt="Voltar"/>
                         </Link>
                     </div>
@@ -22,10 +22,10 @@ function TipoPacote(){
                 </header>
                 <main>
                     <div className="group-tipos">
-                        <Link to="/FormComercial">
+                        <Link to="/PacotesComercial">
                             Comercial
                         </Link>
-                        <Link to="/FormPessoal">
+                        <Link to="/PacotesPessoal">
                             Pessoal
                         </Link> 
                     </div>
@@ -43,9 +43,6 @@ function TipoPacote(){
                         </p>
                     </div>
                 </main>
-                <footer className="background-footer">
-                    
-                </footer>
             </div>
         </div>
         

@@ -6,7 +6,7 @@ import logoImg from '../images/logo.svg';
 import bonecosImg from '../images/bonecos-lading.svg';
 import cercaImg from '../images/cerca-lading.svg';
 
-import '../styles/pages/landing.css';
+import '../styles/pages/Landing.css';
 
 function Landing() {
   return (
@@ -21,7 +21,7 @@ function Landing() {
           <h1>Seja bem vindo(a) ao atendimento inicial online</h1>
           <p>É possivel se retirar da plataforma a qualquer momento. 
             O ensaio só será confirmado por você no final do site.</p>
-          <Link to="/TipoPacote">Continuar</Link>
+          <Link to="/Identificacao">Continuar</Link>
           <img src={bonecosImg} alt="Bonecos"/>
         </main>
 
