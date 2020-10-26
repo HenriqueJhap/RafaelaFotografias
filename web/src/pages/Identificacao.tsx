@@ -1,14 +1,18 @@
-import React from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import  React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
-import setaVoltarImg from '../images/seta-voltar.svg';
 import loginImg from '../images/login-pessoal.svg';
 import cercaImg from '../images/cerca-login.svg';
 
 import '../styles/pages/Identificacao.css';
+import Header from '../Components/Header';
+import Input from '../Components/Input';
 
 function Identificacao(){
     const history = useHistory();
+
+    const [ name, setName ] = useState("");
+    const [ instagram, setInstagram ] = useState("");
 
     function handleNavigateToTipoPacote(){
         history.push('/TipoPacote');
@@ -18,26 +22,28 @@ function Identificacao(){
         <div id="page-Identificacao">
             <div id="page-Identificacao-content" className="container">
                 <header>
-                    <div className="voltar">
-                        <Link to="/">
-                            <img src={setaVoltarImg} alt="Voltar"/>
-                        </Link>
-                    </div>
+                    <Header pageBack="/"/>
                     <h1>Area de Identificação</h1>
                     <img src={loginImg} className="loginImg" alt="Fazer Login"/>
                 </header>
 
                 <main>
                     <form onSubmit={handleNavigateToTipoPacote} className="form-login">
-                        <div className="input-group">
-                            <label htmlFor="name">Nome</label>
-                            <input id="name" type="text" required/>
-                        </div>
+                        <Input 
+                            name="name" 
+                            label="Nome completo" 
+                            value={name} 
+                            onChange= {(e) => { setName(e.target.value) }}
+                            required
+                        />
 
-                        <div className="input-group">
-                            <label htmlFor="instagram">Instagram</label>
-                            <input id="instagram" type="text" required/>
-                        </div>
+                        <Input 
+                            name="instagram" 
+                            label="Instagram" 
+                            value={instagram} 
+                            onChange= {(e) => { setInstagram(e.target.value) }}
+                            required
+                        />
 
                         <button type="submit">login</button>
                     </form>

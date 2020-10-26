@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import setaVoltarImg from '../images/seta-voltar.svg';
+import Header from '../Components/Header';
+
 import celularImg from '../images/celular.svg';
 
 import '../styles/pages/TipoPacote.css';
@@ -12,11 +13,7 @@ function TipoPacote(){
             <div id="page-TipoPacote-content" className="container">
                 <header>
                     
-                    <div className="voltar">
-                        <Link to="/Identificacao">
-                            <img src={setaVoltarImg} alt="Voltar"/>
-                        </Link>
-                    </div>
+                    <Header pageBack="/Identificacao"/>
                     <h1>Selecione o tipo de ensaio desejado</h1>
                     <img src={celularImg} className="celular" alt="Escolha"/>
                 </header>

@@ -1,0 +1,27 @@
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.input-group label{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+
+    color: #292D30;
+
+    margin-bottom: 1rem;
+}
+
+.input-group input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #D3D3D3;
+    background: #FAF5E8;
+    height: 5rem;
+    width: 40rem;
+    color: #69A2B0;
+}

@@ -26,20 +26,6 @@
     flex-direction: column;
 }
 
-#page-Identificacao-content header .voltar{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    
-}
-
-.voltar img{
-    margin-left: 4rem;
-    height: 6rem;
-    width: 6rem;
-}
-
 #page-Identificacao-content header h1{
     font-family: Montserrat;
     font-weight: 300;
@@ -61,34 +47,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
-#page-Identificacao-content .input-group{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 3rem;
-}
-
-#page-Identificacao-content .input-group label{
-    font-family: Montserrat;
-    font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 2rem;
-    text-transform: uppercase;
-
-    color: #292D30;
-
-    margin-bottom: 1rem;
-}
-
-#page-Identificacao-content .input-group input{
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #D3D3D3;
-    background: #FAF5E8;
-    height: 5rem;
-    width: 40rem;
-    color: #69A2B0;
 }
 
 #page-Identificacao-content form button{

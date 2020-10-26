@@ -28,20 +28,6 @@
    
 }
 
-#page-TipoPacote-content header .voltar{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    margin-top: 1rem;
-}
-
-.voltar img{
-    margin-left: 4rem;
-    height: 6rem;
-    width: 6rem;
-}
-
 #page-TipoPacote-content header h1{
     font-family: Montserrat;
     font-weight: 500;
@@ -66,7 +52,6 @@
     flex-direction: column;
     width: 100%;
     margin-bottom: 7rem;
-    height: 40%;
 }
 
 #page-TipoPacote-content .group-tipos{
